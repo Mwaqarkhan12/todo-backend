@@ -65,5 +65,3 @@ async def google_callback(code:str, state:str|None, session:Session = Depends(ge
     return await google_login_callback(code, state, session)
 
 
-
-

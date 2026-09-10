@@ -15,6 +15,7 @@ class Todo(SQLModel, table=True):
     user: Optional["User"] = Relationship(back_populates="todos")
 
 
+# ssh-keygen -t ed25519 -C "waqaraziz40.wa@gmail.com"
 
 
 class User(SQLModel, table=True):
